@@ -1,0 +1,939 @@
+[2026-10-19 16:04:49.273]: Info: Sunshine version: 2026.914.233613 commit: 63d35f702ee9e362e43263742981836ec0710384
+[2026-10-19 16:04:49.273]: Info: Package Publisher: LizardByte
+[2026-10-19 16:04:49.273]: Info: Publisher Website: https://app.lizardbyte.dev
+[2026-10-19 16:04:49.273]: Info: Get support: https://app.lizardbyte.dev/support
+[2026-10-19 16:04:49.273]: Info: config: 'amd_preanalysis' = enabled
+[2026-10-19 16:04:49.273]: Info: config: 'amd_quality' = quality
+[2026-10-19 16:04:49.274]: Info: config: 'amd_usage' = lowlatency_high_quality
+[2026-10-19 16:04:49.274]: Info: config: 'fp16_sdr_gamma_encoded' = disabled
+[2026-10-19 16:04:49.274]: Info: config: 'capture' = ddx
+[2026-10-19 16:04:49.274]: Info: config: 'encoder' = software
+[2026-10-19 16:04:49.274]: Info: config: 'amd_avcodec_compat' = enabled
+[2026-10-19 16:04:49.274]: Info: config: 'hevc_mode' = 1
+[2026-10-19 16:04:49.274]: Info: config: 'sw_preset' = fast
+[2026-10-19 16:04:57.118]: Info: Provided workaround settings for SettingsManager:
+{
+  "hdr_blank_delay": null
+}
+[2026-10-19 16:04:57.122]: Info: Currently available display devices:
+[
+  {
+    "device_id": "{54fcd93d-7bbd-5c98-b365-10e34e5bbb38}",
+    "display_name": "\\\\.\\DISPLAY1",
+    "edid": {
+      "manufacturer_id": "AUS",
+      "product_code": "2782",
+      "serial_number": 16843009
+    },
+    "friendly_name": "VG279",
+    "info": {
+      "hdr_state": null,
+      "origin_point": {
+        "x": 0,
+        "y": 0
+      },
+      "primary": true,
+      "refresh_rate": {
+        "type": "rational",
+        "value": {
+          "denominator": 1,
+          "numerator": 144
+        }
+      },
+      "resolution": {
+        "height": 1080,
+        "width": 1920
+      },
+      "resolution_scale": {
+        "type": "rational",
+        "value": {
+          "denominator": 100,
+          "numerator": 100
+        }
+      }
+    }
+  }
+]
+[2026-10-19 16:04:57.124]: Info: nvprefs: NvAPI_Initialize() failed, ignore if you don't have NVIDIA video card
+[2026-10-19 16:04:57.126]: Info: Compiling shaders...
+[2026-10-19 16:04:57.211]: Info: Compiled shaders
+[2026-10-19 16:05:12.923]: Info: Trying encoder [software]
+[2026-10-19 16:05:13.053]: Info: 
+Device Description : AMD Radeon RX 9070
+Device Vendor ID   : 0x00001002
+Device Device ID   : 0x00007550
+Device Video Mem   : 16188 MiB
+Device Sys Mem     : 0 MiB
+Share Sys Mem      : 8146 MiB
+Feature Level      : 0x0000B100
+Capture size       : 1920x1080
+Offset             : 0x0
+Virtual Desktop    : 1920x1080
+[2026-10-19 16:05:13.053]: Info: Active GPU has HAGS enabled
+[2026-10-19 16:05:13.053]: Info: Using realtime GPU priority
+[2026-10-19 16:05:13.053]: Info: 
+Colorspace         : DXGI_COLOR_SPACE_RGB_FULL_G22_NONE_P709
+Bits Per Color     : 8
+Red Primary        : [0.649292,0.330595]
+Green Primary      : [0.324212,0.602424]
+Blue Primary       : [0.152391,0.061202]
+White Point        : [0.312716,0.329]
+Min Luminance      : 0 nits
+Max Luminance      : 80 nits
+Max Full Luminance : 80 nits
+[2026-10-19 16:05:13.053]: Info: Desktop resolution [1920x1080]
+[2026-10-19 16:05:13.053]: Info: Desktop format [DXGI_FORMAT_R10G10B10A2_UNORM]
+[2026-10-19 16:05:13.053]: Info: Display refresh rate [144Hz]
+[2026-10-19 16:05:13.053]: Info: Requested frame rate [60/1 exactly 60 fps]
+[2026-10-19 16:05:13.053]: Info: Creating encoder [libx264]
+[2026-10-19 16:05:13.053]: Info: Color coding: SDR (Rec. 601)
+[2026-10-19 16:05:13.053]: Info: Color depth: 8-bit
+[2026-10-19 16:05:13.053]: Info: Color range: JPEG
+[2026-10-19 16:05:13.054]: Info: Streaming bitrate is 1000000
+[2026-10-19 16:05:13.056]: Info: [libx264 @ 000002428c9ff680] using cpu capabilities: MMX2 SSE2Fast SSSE3 SSE4.2 AVX FMA3 BMI2 AVX2
+[2026-10-19 16:05:13.057]: Info: [libx264 @ 000002428c9ff680] profile High, level 4.2, 4:2:0, 8-bit
+[2026-10-19 16:05:13.084]: Info: [libx264 @ 000002428c9ff680] frame I:1     Avg QP:31.00  size:  1205
+[2026-10-19 16:05:13.084]: Info: [libx264 @ 000002428c9ff680] mb I  I16..4: 100.0%  0.0%  0.0%
+[2026-10-19 16:05:13.084]: Info: [libx264 @ 000002428c9ff680] 8x8 transform intra:0.0%
+[2026-10-19 16:05:13.084]: Info: [libx264 @ 000002428c9ff680] coded y,uvDC,uvAC intra: 0.0% 0.0% 0.0%
+[2026-10-19 16:05:13.084]: Info: [libx264 @ 000002428c9ff680] i16 v,h,dc,p: 97%  0%  3%  0%
+[2026-10-19 16:05:13.084]: Info: [libx264 @ 000002428c9ff680] i8c dc,h,v,p: 100%  0%  0%  0%
+[2026-10-19 16:05:13.084]: Info: [libx264 @ 000002428c9ff680] kb/s:578.40
+[2026-10-19 16:05:13.176]: Info: 
+Device Description : AMD Radeon RX 9070
+Device Vendor ID   : 0x00001002
+Device Device ID   : 0x00007550
+Device Video Mem   : 16188 MiB
+Device Sys Mem     : 0 MiB
+Share Sys Mem      : 8146 MiB
+Feature Level      : 0x0000B100
+Capture size       : 1920x1080
+Offset             : 0x0
+Virtual Desktop    : 1920x1080
+[2026-10-19 16:05:13.177]: Info: Active GPU has HAGS enabled
+[2026-10-19 16:05:13.177]: Info: Using realtime GPU priority
+[2026-10-19 16:05:13.177]: Info: 
+Colorspace         : DXGI_COLOR_SPACE_RGB_FULL_G22_NONE_P709
+Bits Per Color     : 8
+Red Primary        : [0.649292,0.330595]
+Green Primary      : [0.324212,0.602424]
+Blue Primary       : [0.152391,0.061202]
+White Point        : [0.312716,0.329]
+Min Luminance      : 0 nits
+Max Luminance      : 80 nits
+Max Full Luminance : 80 nits
+[2026-10-19 16:05:13.177]: Info: Desktop resolution [1920x1080]
+[2026-10-19 16:05:13.177]: Info: Desktop format [DXGI_FORMAT_R10G10B10A2_UNORM]
+[2026-10-19 16:05:13.177]: Info: Display refresh rate [144Hz]
+[2026-10-19 16:05:13.177]: Info: Requested frame rate [60/1 exactly 60 fps]
+[2026-10-19 16:05:13.177]: Info: Creating encoder [libx264]
+[2026-10-19 16:05:13.177]: Info: Color coding: SDR (Rec. 601)
+[2026-10-19 16:05:13.177]: Info: Color depth: 8-bit
+[2026-10-19 16:05:13.177]: Info: Color range: JPEG
+[2026-10-19 16:05:13.177]: Info: Streaming bitrate is 1000000
+[2026-10-19 16:05:13.178]: Info: [libx264 @ 000002428c86ef00] using cpu capabilities: MMX2 SSE2Fast SSSE3 SSE4.2 AVX FMA3 BMI2 AVX2
+[2026-10-19 16:05:13.179]: Info: [libx264 @ 000002428c86ef00] profile High 4:4:4 Predictive, level 4.2, 4:4:4, 8-bit
+[2026-10-19 16:05:13.211]: Info: [libx264 @ 000002428c86ef00] frame I:1     Avg QP:31.00  size:  1249
+[2026-10-19 16:05:13.211]: Info: [libx264 @ 000002428c86ef00] mb I  I16..4:  0.0% 100.0%  0.0%
+[2026-10-19 16:05:13.211]: Info: [libx264 @ 000002428c86ef00] 8x8 transform intra:100.0%
+[2026-10-19 16:05:13.212]: Info: [libx264 @ 000002428c86ef00] coded y,u,v intra: 0.0% 0.0% 0.0%
+[2026-10-19 16:05:13.212]: Info: [libx264 @ 000002428c86ef00] i16 v,h,dc,p:  0%  0% 100%  0%
+[2026-10-19 16:05:13.212]: Info: [libx264 @ 000002428c86ef00] i8 v,h,dc,ddl,ddr,vr,hd,vl,hu:  0%  0% 100%  0%  0%  0%  0%  0%  0%
+[2026-10-19 16:05:13.212]: Info: [libx264 @ 000002428c86ef00] kb/s:599.52
+[2026-10-19 16:05:13.304]: Info: 
+Device Description : AMD Radeon RX 9070
+Device Vendor ID   : 0x00001002
+Device Device ID   : 0x00007550
+Device Video Mem   : 16188 MiB
+Device Sys Mem     : 0 MiB
+Share Sys Mem      : 8146 MiB
+Feature Level      : 0x0000B100
+Capture size       : 1920x1080
+Offset             : 0x0
+Virtual Desktop    : 1920x1080
+[2026-10-19 16:05:13.305]: Info: Active GPU has HAGS enabled
+[2026-10-19 16:05:13.305]: Info: Using realtime GPU priority
+[2026-10-19 16:05:13.305]: Info: 
+Colorspace         : DXGI_COLOR_SPACE_RGB_FULL_G22_NONE_P709
+Bits Per Color     : 8
+Red Primary        : [0.649292,0.330595]
+Green Primary      : [0.324212,0.602424]
+Blue Primary       : [0.152391,0.061202]
+White Point        : [0.312716,0.329]
+Min Luminance      : 0 nits
+Max Luminance      : 80 nits
+Max Full Luminance : 80 nits
+[2026-10-19 16:05:13.305]: Info: Desktop resolution [1920x1080]
+[2026-10-19 16:05:13.305]: Info: Desktop format [DXGI_FORMAT_R10G10B10A2_UNORM]
+[2026-10-19 16:05:13.305]: Info: Display refresh rate [144Hz]
+[2026-10-19 16:05:13.305]: Info: Requested frame rate [60/1 exactly 60 fps]
+[2026-10-19 16:05:13.396]: Info: 
+Device Description : AMD Radeon RX 9070
+Device Vendor ID   : 0x00001002
+Device Device ID   : 0x00007550
+Device Video Mem   : 16188 MiB
+Device Sys Mem     : 0 MiB
+Share Sys Mem      : 8146 MiB
+Feature Level      : 0x0000B100
+Capture size       : 1920x1080
+Offset             : 0x0
+Virtual Desktop    : 1920x1080
+[2026-10-19 16:05:13.396]: Info: Active GPU has HAGS enabled
+[2026-10-19 16:05:13.396]: Info: Using realtime GPU priority
+[2026-10-19 16:05:13.396]: Info: 
+Colorspace         : DXGI_COLOR_SPACE_RGB_FULL_G22_NONE_P709
+Bits Per Color     : 8
+Red Primary        : [0.649292,0.330595]
+Green Primary      : [0.324212,0.602424]
+Blue Primary       : [0.152391,0.061202]
+White Point        : [0.312716,0.329]
+Min Luminance      : 0 nits
+Max Luminance      : 80 nits
+Max Full Luminance : 80 nits
+[2026-10-19 16:05:13.397]: Info: Desktop resolution [1920x1080]
+[2026-10-19 16:05:13.397]: Info: Desktop format [DXGI_FORMAT_R10G10B10A2_UNORM]
+[2026-10-19 16:05:13.397]: Info: Display refresh rate [144Hz]
+[2026-10-19 16:05:13.397]: Info: Requested frame rate [60/1 exactly 60 fps]
+[2026-10-19 16:05:13.491]: Info: 
+Device Description : AMD Radeon RX 9070
+Device Vendor ID   : 0x00001002
+Device Device ID   : 0x00007550
+Device Video Mem   : 16188 MiB
+Device Sys Mem     : 0 MiB
+Share Sys Mem      : 8146 MiB
+Feature Level      : 0x0000B100
+Capture size       : 1920x1080
+Offset             : 0x0
+Virtual Desktop    : 1920x1080
+[2026-10-19 16:05:13.491]: Info: Active GPU has HAGS enabled
+[2026-10-19 16:05:13.491]: Info: Using realtime GPU priority
+[2026-10-19 16:05:13.491]: Info: 
+Colorspace         : DXGI_COLOR_SPACE_RGB_FULL_G22_NONE_P709
+Bits Per Color     : 8
+Red Primary        : [0.649292,0.330595]
+Green Primary      : [0.324212,0.602424]
+Blue Primary       : [0.152391,0.061202]
+White Point        : [0.312716,0.329]
+Min Luminance      : 0 nits
+Max Luminance      : 80 nits
+Max Full Luminance : 80 nits
+[2026-10-19 16:05:13.492]: Info: Desktop resolution [1920x1080]
+[2026-10-19 16:05:13.492]: Info: Desktop format [DXGI_FORMAT_R10G10B10A2_UNORM]
+[2026-10-19 16:05:13.492]: Info: Display refresh rate [144Hz]
+[2026-10-19 16:05:13.492]: Info: Requested frame rate [60/1 exactly 60 fps]
+[2026-10-19 16:05:13.585]: Info: 
+Device Description : AMD Radeon RX 9070
+Device Vendor ID   : 0x00001002
+Device Device ID   : 0x00007550
+Device Video Mem   : 16188 MiB
+Device Sys Mem     : 0 MiB
+Share Sys Mem      : 8146 MiB
+Feature Level      : 0x0000B100
+Capture size       : 1920x1080
+Offset             : 0x0
+Virtual Desktop    : 1920x1080
+[2026-10-19 16:05:13.585]: Info: Active GPU has HAGS enabled
+[2026-10-19 16:05:13.585]: Info: Using realtime GPU priority
+[2026-10-19 16:05:13.585]: Info: 
+Colorspace         : DXGI_COLOR_SPACE_RGB_FULL_G22_NONE_P709
+Bits Per Color     : 8
+Red Primary        : [0.649292,0.330595]
+Green Primary      : [0.324212,0.602424]
+Blue Primary       : [0.152391,0.061202]
+White Point        : [0.312716,0.329]
+Min Luminance      : 0 nits
+Max Luminance      : 80 nits
+Max Full Luminance : 80 nits
+[2026-10-19 16:05:13.586]: Info: Desktop resolution [1920x1080]
+[2026-10-19 16:05:13.586]: Info: Desktop format [DXGI_FORMAT_R10G10B10A2_UNORM]
+[2026-10-19 16:05:13.586]: Info: Display refresh rate [144Hz]
+[2026-10-19 16:05:13.586]: Info: Requested frame rate [60/1 exactly 60 fps]
+[2026-10-19 16:05:13.679]: Info: 
+Device Description : AMD Radeon RX 9070
+Device Vendor ID   : 0x00001002
+Device Device ID   : 0x00007550
+Device Video Mem   : 16188 MiB
+Device Sys Mem     : 0 MiB
+Share Sys Mem      : 8146 MiB
+Feature Level      : 0x0000B100
+Capture size       : 1920x1080
+Offset             : 0x0
+Virtual Desktop    : 1920x1080
+[2026-10-19 16:05:13.679]: Info: Active GPU has HAGS enabled
+[2026-10-19 16:05:13.679]: Info: Using realtime GPU priority
+[2026-10-19 16:05:13.679]: Info: 
+Colorspace         : DXGI_COLOR_SPACE_RGB_FULL_G22_NONE_P709
+Bits Per Color     : 8
+Red Primary        : [0.649292,0.330595]
+Green Primary      : [0.324212,0.602424]
+Blue Primary       : [0.152391,0.061202]
+White Point        : [0.312716,0.329]
+Min Luminance      : 0 nits
+Max Luminance      : 80 nits
+Max Full Luminance : 80 nits
+[2026-10-19 16:05:13.679]: Info: Desktop resolution [1920x1080]
+[2026-10-19 16:05:13.679]: Info: Desktop format [DXGI_FORMAT_R10G10B10A2_UNORM]
+[2026-10-19 16:05:13.679]: Info: Display refresh rate [144Hz]
+[2026-10-19 16:05:13.679]: Info: Requested frame rate [60/1 exactly 60 fps]
+[2026-10-19 16:05:13.775]: Info: 
+Device Description : AMD Radeon RX 9070
+Device Vendor ID   : 0x00001002
+Device Device ID   : 0x00007550
+Device Video Mem   : 16188 MiB
+Device Sys Mem     : 0 MiB
+Share Sys Mem      : 8146 MiB
+Feature Level      : 0x0000B100
+Capture size       : 1920x1080
+Offset             : 0x0
+Virtual Desktop    : 1920x1080
+[2026-10-19 16:05:13.775]: Info: Active GPU has HAGS enabled
+[2026-10-19 16:05:13.775]: Info: Using realtime GPU priority
+[2026-10-19 16:05:13.775]: Info: 
+Colorspace         : DXGI_COLOR_SPACE_RGB_FULL_G22_NONE_P709
+Bits Per Color     : 8
+Red Primary        : [0.649292,0.330595]
+Green Primary      : [0.324212,0.602424]
+Blue Primary       : [0.152391,0.061202]
+White Point        : [0.312716,0.329]
+Min Luminance      : 0 nits
+Max Luminance      : 80 nits
+Max Full Luminance : 80 nits
+[2026-10-19 16:05:13.776]: Info: Desktop resolution [1920x1080]
+[2026-10-19 16:05:13.776]: Info: Desktop format [DXGI_FORMAT_R10G10B10A2_UNORM]
+[2026-10-19 16:05:13.776]: Info: Display refresh rate [144Hz]
+[2026-10-19 16:05:13.776]: Info: Requested frame rate [60/1 exactly 60 fps]
+[2026-10-19 16:05:13.783]: Info: // Testing for available encoders, this may generate errors. You can safely ignore those errors. //
+[2026-10-19 16:05:13.783]: Info: 
+[2026-10-19 16:05:13.783]: Info: // Ignore any errors mentioned above, they are not relevant. //
+[2026-10-19 16:05:13.783]: Info: 
+[2026-10-19 16:05:13.783]: Info: Found H.264 encoder: libx264 [software]
+[2026-10-19 16:05:13.784]: Info: Starting system tray
+[2026-10-19 16:05:13.787]: Info: Configuration UI available at [https://localhost:47990]
+[2026-10-19 16:05:14.557]: Info: Registered Sunshine mDNS service
+[2026-10-19 16:05:21.618]: Info: System tray thread initialized successfully
+[2026-10-19 16:05:21.618]: Info: No main thread features enabled, skipping event loop
+[2026-10-19 16:05:21.618]: Info: System tray thread started
+[2026-10-19 16:05:21.633]: Info: Qt: QtTrayMenu: using Qt style "windows11"
+[2026-10-19 16:05:21.650]: Info: System tray created
+[2026-10-19 16:12:20.404]: Info: Display device configuration is disabled. Reverting any active display device configuration.
+[2026-10-19 16:12:20.406]: Info: Trying encoder [software]
+[2026-10-19 16:12:20.506]: Info: 
+Device Description : AMD Radeon RX 9070
+Device Vendor ID   : 0x00001002
+Device Device ID   : 0x00007550
+Device Video Mem   : 16188 MiB
+Device Sys Mem     : 0 MiB
+Share Sys Mem      : 8146 MiB
+Feature Level      : 0x0000B100
+Capture size       : 1920x1080
+Offset             : 0x0
+Virtual Desktop    : 1920x1080
+[2026-10-19 16:12:20.507]: Info: Active GPU has HAGS enabled
+[2026-10-19 16:12:20.507]: Info: Using realtime GPU priority
+[2026-10-19 16:12:20.507]: Info: 
+Colorspace         : DXGI_COLOR_SPACE_RGB_FULL_G22_NONE_P709
+Bits Per Color     : 8
+Red Primary        : [0.649292,0.330595]
+Green Primary      : [0.324212,0.602424]
+Blue Primary       : [0.152391,0.061202]
+White Point        : [0.312716,0.329]
+Min Luminance      : 0 nits
+Max Luminance      : 80 nits
+Max Full Luminance : 80 nits
+[2026-10-19 16:12:20.507]: Info: Desktop resolution [1920x1080]
+[2026-10-19 16:12:20.507]: Info: Desktop format [DXGI_FORMAT_R10G10B10A2_UNORM]
+[2026-10-19 16:12:20.507]: Info: Display refresh rate [144Hz]
+[2026-10-19 16:12:20.507]: Info: Requested frame rate [60/1 exactly 60 fps]
+[2026-10-19 16:12:20.507]: Info: Creating encoder [libx264]
+[2026-10-19 16:12:20.507]: Info: Color coding: SDR (Rec. 601)
+[2026-10-19 16:12:20.507]: Info: Color depth: 8-bit
+[2026-10-19 16:12:20.507]: Info: Color range: JPEG
+[2026-10-19 16:12:20.507]: Info: Streaming bitrate is 1000000
+[2026-10-19 16:12:20.508]: Info: [libx264 @ 000002429be48880] using cpu capabilities: MMX2 SSE2Fast SSSE3 SSE4.2 AVX FMA3 BMI2 AVX2
+[2026-10-19 16:12:20.509]: Info: [libx264 @ 000002429be48880] profile High, level 4.2, 4:2:0, 8-bit
+[2026-10-19 16:12:20.532]: Info: [libx264 @ 000002429be48880] frame I:1     Avg QP:31.00  size:  1205
+[2026-10-19 16:12:20.532]: Info: [libx264 @ 000002429be48880] mb I  I16..4: 100.0%  0.0%  0.0%
+[2026-10-19 16:12:20.532]: Info: [libx264 @ 000002429be48880] 8x8 transform intra:0.0%
+[2026-10-19 16:12:20.532]: Info: [libx264 @ 000002429be48880] coded y,uvDC,uvAC intra: 0.0% 0.0% 0.0%
+[2026-10-19 16:12:20.532]: Info: [libx264 @ 000002429be48880] i16 v,h,dc,p: 97%  0%  3%  0%
+[2026-10-19 16:12:20.532]: Info: [libx264 @ 000002429be48880] i8c dc,h,v,p: 100%  0%  0%  0%
+[2026-10-19 16:12:20.532]: Info: [libx264 @ 000002429be48880] kb/s:578.40
+[2026-10-19 16:12:20.628]: Info: 
+Device Description : AMD Radeon RX 9070
+Device Vendor ID   : 0x00001002
+Device Device ID   : 0x00007550
+Device Video Mem   : 16188 MiB
+Device Sys Mem     : 0 MiB
+Share Sys Mem      : 8146 MiB
+Feature Level      : 0x0000B100
+Capture size       : 1920x1080
+Offset             : 0x0
+Virtual Desktop    : 1920x1080
+[2026-10-19 16:12:20.628]: Info: Active GPU has HAGS enabled
+[2026-10-19 16:12:20.628]: Info: Using realtime GPU priority
+[2026-10-19 16:12:20.628]: Info: 
+Colorspace         : DXGI_COLOR_SPACE_RGB_FULL_G22_NONE_P709
+Bits Per Color     : 8
+Red Primary        : [0.649292,0.330595]
+Green Primary      : [0.324212,0.602424]
+Blue Primary       : [0.152391,0.061202]
+White Point        : [0.312716,0.329]
+Min Luminance      : 0 nits
+Max Luminance      : 80 nits
+Max Full Luminance : 80 nits
+[2026-10-19 16:12:20.628]: Info: Desktop resolution [1920x1080]
+[2026-10-19 16:12:20.628]: Info: Desktop format [DXGI_FORMAT_R10G10B10A2_UNORM]
+[2026-10-19 16:12:20.628]: Info: Display refresh rate [144Hz]
+[2026-10-19 16:12:20.628]: Info: Requested frame rate [60/1 exactly 60 fps]
+[2026-10-19 16:12:20.628]: Info: Creating encoder [libx264]
+[2026-10-19 16:12:20.629]: Info: Color coding: SDR (Rec. 601)
+[2026-10-19 16:12:20.629]: Info: Color depth: 8-bit
+[2026-10-19 16:12:20.629]: Info: Color range: JPEG
+[2026-10-19 16:12:20.629]: Info: Streaming bitrate is 1000000
+[2026-10-19 16:12:20.629]: Info: [libx264 @ 000002429c0d0dc0] using cpu capabilities: MMX2 SSE2Fast SSSE3 SSE4.2 AVX FMA3 BMI2 AVX2
+[2026-10-19 16:12:20.630]: Info: [libx264 @ 000002429c0d0dc0] profile High 4:4:4 Predictive, level 4.2, 4:4:4, 8-bit
+[2026-10-19 16:12:20.663]: Info: [libx264 @ 000002429c0d0dc0] frame I:1     Avg QP:31.00  size:  1249
+[2026-10-19 16:12:20.663]: Info: [libx264 @ 000002429c0d0dc0] mb I  I16..4:  0.0% 100.0%  0.0%
+[2026-10-19 16:12:20.663]: Info: [libx264 @ 000002429c0d0dc0] 8x8 transform intra:100.0%
+[2026-10-19 16:12:20.663]: Info: [libx264 @ 000002429c0d0dc0] coded y,u,v intra: 0.0% 0.0% 0.0%
+[2026-10-19 16:12:20.663]: Info: [libx264 @ 000002429c0d0dc0] i16 v,h,dc,p:  0%  0% 100%  0%
+[2026-10-19 16:12:20.663]: Info: [libx264 @ 000002429c0d0dc0] i8 v,h,dc,ddl,ddr,vr,hd,vl,hu:  0%  0% 100%  0%  0%  0%  0%  0%  0%
+[2026-10-19 16:12:20.663]: Info: [libx264 @ 000002429c0d0dc0] kb/s:599.52
+[2026-10-19 16:12:20.762]: Info: 
+Device Description : AMD Radeon RX 9070
+Device Vendor ID   : 0x00001002
+Device Device ID   : 0x00007550
+Device Video Mem   : 16188 MiB
+Device Sys Mem     : 0 MiB
+Share Sys Mem      : 8146 MiB
+Feature Level      : 0x0000B100
+Capture size       : 1920x1080
+Offset             : 0x0
+Virtual Desktop    : 1920x1080
+[2026-10-19 16:12:20.762]: Info: Active GPU has HAGS enabled
+[2026-10-19 16:12:20.762]: Info: Using realtime GPU priority
+[2026-10-19 16:12:20.762]: Info: 
+Colorspace         : DXGI_COLOR_SPACE_RGB_FULL_G22_NONE_P709
+Bits Per Color     : 8
+Red Primary        : [0.649292,0.330595]
+Green Primary      : [0.324212,0.602424]
+Blue Primary       : [0.152391,0.061202]
+White Point        : [0.312716,0.329]
+Min Luminance      : 0 nits
+Max Luminance      : 80 nits
+Max Full Luminance : 80 nits
+[2026-10-19 16:12:20.763]: Info: Desktop resolution [1920x1080]
+[2026-10-19 16:12:20.763]: Info: Desktop format [DXGI_FORMAT_R10G10B10A2_UNORM]
+[2026-10-19 16:12:20.763]: Info: Display refresh rate [144Hz]
+[2026-10-19 16:12:20.763]: Info: Requested frame rate [60/1 exactly 60 fps]
+[2026-10-19 16:12:20.854]: Info: 
+Device Description : AMD Radeon RX 9070
+Device Vendor ID   : 0x00001002
+Device Device ID   : 0x00007550
+Device Video Mem   : 16188 MiB
+Device Sys Mem     : 0 MiB
+Share Sys Mem      : 8146 MiB
+Feature Level      : 0x0000B100
+Capture size       : 1920x1080
+Offset             : 0x0
+Virtual Desktop    : 1920x1080
+[2026-10-19 16:12:20.855]: Info: Active GPU has HAGS enabled
+[2026-10-19 16:12:20.855]: Info: Using realtime GPU priority
+[2026-10-19 16:12:20.855]: Info: 
+Colorspace         : DXGI_COLOR_SPACE_RGB_FULL_G22_NONE_P709
+Bits Per Color     : 8
+Red Primary        : [0.649292,0.330595]
+Green Primary      : [0.324212,0.602424]
+Blue Primary       : [0.152391,0.061202]
+White Point        : [0.312716,0.329]
+Min Luminance      : 0 nits
+Max Luminance      : 80 nits
+Max Full Luminance : 80 nits
+[2026-10-19 16:12:20.855]: Info: Desktop resolution [1920x1080]
+[2026-10-19 16:12:20.855]: Info: Desktop format [DXGI_FORMAT_R10G10B10A2_UNORM]
+[2026-10-19 16:12:20.855]: Info: Display refresh rate [144Hz]
+[2026-10-19 16:12:20.855]: Info: Requested frame rate [60/1 exactly 60 fps]
+[2026-10-19 16:12:20.944]: Info: 
+Device Description : AMD Radeon RX 9070
+Device Vendor ID   : 0x00001002
+Device Device ID   : 0x00007550
+Device Video Mem   : 16188 MiB
+Device Sys Mem     : 0 MiB
+Share Sys Mem      : 8146 MiB
+Feature Level      : 0x0000B100
+Capture size       : 1920x1080
+Offset             : 0x0
+Virtual Desktop    : 1920x1080
+[2026-10-19 16:12:20.944]: Info: Active GPU has HAGS enabled
+[2026-10-19 16:12:20.944]: Info: Using realtime GPU priority
+[2026-10-19 16:12:20.944]: Info: 
+Colorspace         : DXGI_COLOR_SPACE_RGB_FULL_G22_NONE_P709
+Bits Per Color     : 8
+Red Primary        : [0.649292,0.330595]
+Green Primary      : [0.324212,0.602424]
+Blue Primary       : [0.152391,0.061202]
+White Point        : [0.312716,0.329]
+Min Luminance      : 0 nits
+Max Luminance      : 80 nits
+Max Full Luminance : 80 nits
+[2026-10-19 16:12:20.945]: Info: Desktop resolution [1920x1080]
+[2026-10-19 16:12:20.945]: Info: Desktop format [DXGI_FORMAT_R10G10B10A2_UNORM]
+[2026-10-19 16:12:20.945]: Info: Display refresh rate [144Hz]
+[2026-10-19 16:12:20.945]: Info: Requested frame rate [60/1 exactly 60 fps]
+[2026-10-19 16:12:21.037]: Info: 
+Device Description : AMD Radeon RX 9070
+Device Vendor ID   : 0x00001002
+Device Device ID   : 0x00007550
+Device Video Mem   : 16188 MiB
+Device Sys Mem     : 0 MiB
+Share Sys Mem      : 8146 MiB
+Feature Level      : 0x0000B100
+Capture size       : 1920x1080
+Offset             : 0x0
+Virtual Desktop    : 1920x1080
+[2026-10-19 16:12:21.037]: Info: Active GPU has HAGS enabled
+[2026-10-19 16:12:21.037]: Info: Using realtime GPU priority
+[2026-10-19 16:12:21.037]: Info: 
+Colorspace         : DXGI_COLOR_SPACE_RGB_FULL_G22_NONE_P709
+Bits Per Color     : 8
+Red Primary        : [0.649292,0.330595]
+Green Primary      : [0.324212,0.602424]
+Blue Primary       : [0.152391,0.061202]
+White Point        : [0.312716,0.329]
+Min Luminance      : 0 nits
+Max Luminance      : 80 nits
+Max Full Luminance : 80 nits
+[2026-10-19 16:12:21.038]: Info: Desktop resolution [1920x1080]
+[2026-10-19 16:12:21.038]: Info: Desktop format [DXGI_FORMAT_R10G10B10A2_UNORM]
+[2026-10-19 16:12:21.038]: Info: Display refresh rate [144Hz]
+[2026-10-19 16:12:21.038]: Info: Requested frame rate [60/1 exactly 60 fps]
+[2026-10-19 16:12:21.130]: Info: 
+Device Description : AMD Radeon RX 9070
+Device Vendor ID   : 0x00001002
+Device Device ID   : 0x00007550
+Device Video Mem   : 16188 MiB
+Device Sys Mem     : 0 MiB
+Share Sys Mem      : 8146 MiB
+Feature Level      : 0x0000B100
+Capture size       : 1920x1080
+Offset             : 0x0
+Virtual Desktop    : 1920x1080
+[2026-10-19 16:12:21.130]: Info: Active GPU has HAGS enabled
+[2026-10-19 16:12:21.130]: Info: Using realtime GPU priority
+[2026-10-19 16:12:21.130]: Info: 
+Colorspace         : DXGI_COLOR_SPACE_RGB_FULL_G22_NONE_P709
+Bits Per Color     : 8
+Red Primary        : [0.649292,0.330595]
+Green Primary      : [0.324212,0.602424]
+Blue Primary       : [0.152391,0.061202]
+White Point        : [0.312716,0.329]
+Min Luminance      : 0 nits
+Max Luminance      : 80 nits
+Max Full Luminance : 80 nits
+[2026-10-19 16:12:21.131]: Info: Desktop resolution [1920x1080]
+[2026-10-19 16:12:21.131]: Info: Desktop format [DXGI_FORMAT_R10G10B10A2_UNORM]
+[2026-10-19 16:12:21.131]: Info: Display refresh rate [144Hz]
+[2026-10-19 16:12:21.131]: Info: Requested frame rate [60/1 exactly 60 fps]
+[2026-10-19 16:12:21.226]: Info: 
+Device Description : AMD Radeon RX 9070
+Device Vendor ID   : 0x00001002
+Device Device ID   : 0x00007550
+Device Video Mem   : 16188 MiB
+Device Sys Mem     : 0 MiB
+Share Sys Mem      : 8146 MiB
+Feature Level      : 0x0000B100
+Capture size       : 1920x1080
+Offset             : 0x0
+Virtual Desktop    : 1920x1080
+[2026-10-19 16:12:21.226]: Info: Active GPU has HAGS enabled
+[2026-10-19 16:12:21.226]: Info: Using realtime GPU priority
+[2026-10-19 16:12:21.226]: Info: 
+Colorspace         : DXGI_COLOR_SPACE_RGB_FULL_G22_NONE_P709
+Bits Per Color     : 8
+Red Primary        : [0.649292,0.330595]
+Green Primary      : [0.324212,0.602424]
+Blue Primary       : [0.152391,0.061202]
+White Point        : [0.312716,0.329]
+Min Luminance      : 0 nits
+Max Luminance      : 80 nits
+Max Full Luminance : 80 nits
+[2026-10-19 16:12:21.227]: Info: Desktop resolution [1920x1080]
+[2026-10-19 16:12:21.227]: Info: Desktop format [DXGI_FORMAT_R10G10B10A2_UNORM]
+[2026-10-19 16:12:21.227]: Info: Display refresh rate [144Hz]
+[2026-10-19 16:12:21.227]: Info: Requested frame rate [60/1 exactly 60 fps]
+[2026-10-19 16:12:21.234]: Info: // Testing for available encoders, this may generate errors. You can safely ignore those errors. //
+[2026-10-19 16:12:21.234]: Info: 
+[2026-10-19 16:12:21.234]: Info: // Ignore any errors mentioned above, they are not relevant. //
+[2026-10-19 16:12:21.234]: Info: 
+[2026-10-19 16:12:21.234]: Info: Found H.264 encoder: libx264 [software]
+[2026-10-19 16:12:21.235]: Info: Executing [Desktop]
+[2026-10-19 16:12:21.401]: Info: New streaming session started [active sessions: 1]
+[2026-10-19 16:12:21.414]: Info: nvprefs: NvAPI_Initialize() failed, ignore if you don't have NVIDIA video card
+[2026-10-19 16:12:21.451]: Info: CLIENT CONNECTED
+[2026-10-19 16:12:21.606]: Info: 
+Device Description : AMD Radeon RX 9070
+Device Vendor ID   : 0x00001002
+Device Device ID   : 0x00007550
+Device Video Mem   : 16188 MiB
+Device Sys Mem     : 0 MiB
+Share Sys Mem      : 8146 MiB
+Feature Level      : 0x0000B100
+Capture size       : 1920x1080
+Offset             : 0x0
+Virtual Desktop    : 1920x1080
+[2026-10-19 16:12:21.606]: Info: Active GPU has HAGS enabled
+[2026-10-19 16:12:21.606]: Info: Using realtime GPU priority
+[2026-10-19 16:12:21.606]: Info: 
+Colorspace         : DXGI_COLOR_SPACE_RGB_FULL_G22_NONE_P709
+Bits Per Color     : 8
+Red Primary        : [0.649292,0.330595]
+Green Primary      : [0.324212,0.602424]
+Blue Primary       : [0.152391,0.061202]
+White Point        : [0.312716,0.329]
+Min Luminance      : 0 nits
+Max Luminance      : 80 nits
+Max Full Luminance : 80 nits
+[2026-10-19 16:12:21.607]: Info: Desktop resolution [1920x1080]
+[2026-10-19 16:12:21.607]: Info: Desktop format [DXGI_FORMAT_R10G10B10A2_UNORM]
+[2026-10-19 16:12:21.607]: Info: Display refresh rate [144Hz]
+[2026-10-19 16:12:21.607]: Info: Requested frame rate [60fps]
+[2026-10-19 16:12:21.607]: Info: Creating encoder [libx264]
+[2026-10-19 16:12:21.607]: Info: Color coding: SDR (Rec. 601)
+[2026-10-19 16:12:21.607]: Info: Color depth: 8-bit
+[2026-10-19 16:12:21.607]: Info: Color range: MPEG
+[2026-10-19 16:12:21.607]: Info: Streaming bitrate is 14988000
+[2026-10-19 16:12:21.607]: Info: [libx264 @ 000002429c0cff00] using cpu capabilities: MMX2 SSE2Fast SSSE3 SSE4.2 AVX FMA3 BMI2 AVX2
+[2026-10-19 16:12:21.609]: Info: [libx264 @ 000002429c0cff00] profile High, level 3.2, 4:2:0, 8-bit
+[2026-10-19 16:12:21.612]: Info: Minimum FPS target set to ~30fps (33.3333ms)
+[2026-10-19 16:12:21.624]: Info: Capture format [DXGI_FORMAT_B8G8R8A8_UNORM]
+[2026-10-19 16:12:21.931]: Info: Virtual audio device will use 24-bit to match default device
+[2026-10-19 16:12:21.947]: Info: Changed virtual audio sink format to [S24 48000 2.0]
+[2026-10-19 16:12:21.980]: Info: Capturing audio from sink [virtual-Stereo{0.0.0.00000000}.{40f1befd-e5ae-42d9-9ddc-8c21b5643cc3}]
+[2026-10-19 16:12:21.984]: Info: Audio mixer format is 32-bit, 48000 Hz, no resampling needed
+[2026-10-19 16:12:21.990]: Info: Audio capture format is [F32 48000 2.0]
+[2026-10-19 16:12:21.993]: Info: Opus initialized: 48 kHz, 2 channels, 512 kbps (total), LOWDELAY
+[2026-10-19 16:12:28.410]: Info: Gamepad 0 will be Xbox 360 controller (default)
+[2026-10-19 16:12:34.469]: Warning: ControllerNumber already allocated [0]
+[2026-10-19 16:13:02.798]: Info: CLIENT DISCONNECTED
+[2026-10-19 16:13:02.807]: Info: [libx264 @ 000002429c0cff00] frame I:7     Avg QP:10.19  size: 33819
+[2026-10-19 16:13:02.807]: Info: [libx264 @ 000002429c0cff00] frame P:2012  Avg QP: 4.48  size: 12635
+[2026-10-19 16:13:02.807]: Info: [libx264 @ 000002429c0cff00] mb I  I16..4: 36.2% 46.5% 17.2%
+[2026-10-19 16:13:02.807]: Info: [libx264 @ 000002429c0cff00] mb P  I16..4:  1.1%  2.3%  0.6%  P16..4: 14.4%  5.0%  3.7%  0.0%  0.0%    skip:72.9%
+[2026-10-19 16:13:02.807]: Info: [libx264 @ 000002429c0cff00] 8x8 transform intra:56.4% inter:51.9%
+[2026-10-19 16:13:02.807]: Info: [libx264 @ 000002429c0cff00] coded y,uvDC,uvAC intra: 50.3% 57.0% 52.4% inter: 11.4% 9.0% 6.0%
+[2026-10-19 16:13:02.807]: Info: [libx264 @ 000002429c0cff00] i16 v,h,dc,p: 55% 31% 10%  5%
+[2026-10-19 16:13:02.807]: Info: [libx264 @ 000002429c0cff00] i8 v,h,dc,ddl,ddr,vr,hd,vl,hu: 17% 14% 53%  2%  3%  2%  3%  2%  3%
+[2026-10-19 16:13:02.807]: Info: [libx264 @ 000002429c0cff00] i4 v,h,dc,ddl,ddr,vr,hd,vl,hu: 30% 24% 28%  3%  4%  3%  4%  2%  3%
+[2026-10-19 16:13:02.807]: Info: [libx264 @ 000002429c0cff00] i8c dc,h,v,p: 64% 20% 13%  3%
+[2026-10-19 16:13:02.807]: Info: [libx264 @ 000002429c0cff00] Weighted P-Frames: Y:0.1% UV:0.1%
+[2026-10-19 16:13:02.807]: Info: [libx264 @ 000002429c0cff00] kb/s:6100.11
+[2026-10-19 16:13:31.281]: Info: Display device configuration is disabled. Reverting any active display device configuration.
+[2026-10-19 16:13:31.283]: Info: Trying encoder [software]
+[2026-10-19 16:13:31.374]: Info: 
+Device Description : AMD Radeon RX 9070
+Device Vendor ID   : 0x00001002
+Device Device ID   : 0x00007550
+Device Video Mem   : 16188 MiB
+Device Sys Mem     : 0 MiB
+Share Sys Mem      : 8146 MiB
+Feature Level      : 0x0000B100
+Capture size       : 1920x1080
+Offset             : 0x0
+Virtual Desktop    : 1920x1080
+[2026-10-19 16:13:31.374]: Info: Active GPU has HAGS enabled
+[2026-10-19 16:13:31.374]: Info: Using realtime GPU priority
+[2026-10-19 16:13:31.374]: Info: 
+Colorspace         : DXGI_COLOR_SPACE_RGB_FULL_G22_NONE_P709
+Bits Per Color     : 8
+Red Primary        : [0.649292,0.330595]
+Green Primary      : [0.324212,0.602424]
+Blue Primary       : [0.152391,0.061202]
+White Point        : [0.312716,0.329]
+Min Luminance      : 0 nits
+Max Luminance      : 80 nits
+Max Full Luminance : 80 nits
+[2026-10-19 16:13:31.375]: Info: Desktop resolution [1920x1080]
+[2026-10-19 16:13:31.375]: Info: Desktop format [DXGI_FORMAT_R10G10B10A2_UNORM]
+[2026-10-19 16:13:31.375]: Info: Display refresh rate [144Hz]
+[2026-10-19 16:13:31.375]: Info: Requested frame rate [60/1 exactly 60 fps]
+[2026-10-19 16:13:31.375]: Info: Creating encoder [libx264]
+[2026-10-19 16:13:31.375]: Info: Color coding: SDR (Rec. 601)
+[2026-10-19 16:13:31.375]: Info: Color depth: 8-bit
+[2026-10-19 16:13:31.375]: Info: Color range: JPEG
+[2026-10-19 16:13:31.375]: Info: Streaming bitrate is 1000000
+[2026-10-19 16:13:31.375]: Info: [libx264 @ 0000024298bcfac0] using cpu capabilities: MMX2 SSE2Fast SSSE3 SSE4.2 AVX FMA3 BMI2 AVX2
+[2026-10-19 16:13:31.376]: Info: [libx264 @ 0000024298bcfac0] profile High, level 4.2, 4:2:0, 8-bit
+[2026-10-19 16:13:31.400]: Info: [libx264 @ 0000024298bcfac0] frame I:1     Avg QP:31.00  size:  1205
+[2026-10-19 16:13:31.400]: Info: [libx264 @ 0000024298bcfac0] mb I  I16..4: 100.0%  0.0%  0.0%
+[2026-10-19 16:13:31.400]: Info: [libx264 @ 0000024298bcfac0] 8x8 transform intra:0.0%
+[2026-10-19 16:13:31.400]: Info: [libx264 @ 0000024298bcfac0] coded y,uvDC,uvAC intra: 0.0% 0.0% 0.0%
+[2026-10-19 16:13:31.400]: Info: [libx264 @ 0000024298bcfac0] i16 v,h,dc,p: 97%  0%  3%  0%
+[2026-10-19 16:13:31.400]: Info: [libx264 @ 0000024298bcfac0] i8c dc,h,v,p: 100%  0%  0%  0%
+[2026-10-19 16:13:31.400]: Info: [libx264 @ 0000024298bcfac0] kb/s:578.40
+[2026-10-19 16:13:31.494]: Info: 
+Device Description : AMD Radeon RX 9070
+Device Vendor ID   : 0x00001002
+Device Device ID   : 0x00007550
+Device Video Mem   : 16188 MiB
+Device Sys Mem     : 0 MiB
+Share Sys Mem      : 8146 MiB
+Feature Level      : 0x0000B100
+Capture size       : 1920x1080
+Offset             : 0x0
+Virtual Desktop    : 1920x1080
+[2026-10-19 16:13:31.494]: Info: Active GPU has HAGS enabled
+[2026-10-19 16:13:31.494]: Info: Using realtime GPU priority
+[2026-10-19 16:13:31.494]: Info: 
+Colorspace         : DXGI_COLOR_SPACE_RGB_FULL_G22_NONE_P709
+Bits Per Color     : 8
+Red Primary        : [0.649292,0.330595]
+Green Primary      : [0.324212,0.602424]
+Blue Primary       : [0.152391,0.061202]
+White Point        : [0.312716,0.329]
+Min Luminance      : 0 nits
+Max Luminance      : 80 nits
+Max Full Luminance : 80 nits
+[2026-10-19 16:13:31.495]: Info: Desktop resolution [1920x1080]
+[2026-10-19 16:13:31.495]: Info: Desktop format [DXGI_FORMAT_R10G10B10A2_UNORM]
+[2026-10-19 16:13:31.495]: Info: Display refresh rate [144Hz]
+[2026-10-19 16:13:31.495]: Info: Requested frame rate [60/1 exactly 60 fps]
+[2026-10-19 16:13:31.495]: Info: Creating encoder [libx264]
+[2026-10-19 16:13:31.495]: Info: Color coding: SDR (Rec. 601)
+[2026-10-19 16:13:31.495]: Info: Color depth: 8-bit
+[2026-10-19 16:13:31.495]: Info: Color range: JPEG
+[2026-10-19 16:13:31.495]: Info: Streaming bitrate is 1000000
+[2026-10-19 16:13:31.495]: Info: [libx264 @ 000002428ca14940] using cpu capabilities: MMX2 SSE2Fast SSSE3 SSE4.2 AVX FMA3 BMI2 AVX2
+[2026-10-19 16:13:31.496]: Info: [libx264 @ 000002428ca14940] profile High 4:4:4 Predictive, level 4.2, 4:4:4, 8-bit
+[2026-10-19 16:13:31.531]: Info: [libx264 @ 000002428ca14940] frame I:1     Avg QP:31.00  size:  1249
+[2026-10-19 16:13:31.531]: Info: [libx264 @ 000002428ca14940] mb I  I16..4:  0.0% 100.0%  0.0%
+[2026-10-19 16:13:31.531]: Info: [libx264 @ 000002428ca14940] 8x8 transform intra:100.0%
+[2026-10-19 16:13:31.531]: Info: [libx264 @ 000002428ca14940] coded y,u,v intra: 0.0% 0.0% 0.0%
+[2026-10-19 16:13:31.531]: Info: [libx264 @ 000002428ca14940] i16 v,h,dc,p:  0%  0% 100%  0%
+[2026-10-19 16:13:31.531]: Info: [libx264 @ 000002428ca14940] i8 v,h,dc,ddl,ddr,vr,hd,vl,hu:  0%  0% 100%  0%  0%  0%  0%  0%  0%
+[2026-10-19 16:13:31.531]: Info: [libx264 @ 000002428ca14940] kb/s:599.52
+[2026-10-19 16:13:31.627]: Info: 
+Device Description : AMD Radeon RX 9070
+Device Vendor ID   : 0x00001002
+Device Device ID   : 0x00007550
+Device Video Mem   : 16188 MiB
+Device Sys Mem     : 0 MiB
+Share Sys Mem      : 8146 MiB
+Feature Level      : 0x0000B100
+Capture size       : 1920x1080
+Offset             : 0x0
+Virtual Desktop    : 1920x1080
+[2026-10-19 16:13:31.627]: Info: Active GPU has HAGS enabled
+[2026-10-19 16:13:31.627]: Info: Using realtime GPU priority
+[2026-10-19 16:13:31.627]: Info: 
+Colorspace         : DXGI_COLOR_SPACE_RGB_FULL_G22_NONE_P709
+Bits Per Color     : 8
+Red Primary        : [0.649292,0.330595]
+Green Primary      : [0.324212,0.602424]
+Blue Primary       : [0.152391,0.061202]
+White Point        : [0.312716,0.329]
+Min Luminance      : 0 nits
+Max Luminance      : 80 nits
+Max Full Luminance : 80 nits
+[2026-10-19 16:13:31.628]: Info: Desktop resolution [1920x1080]
+[2026-10-19 16:13:31.628]: Info: Desktop format [DXGI_FORMAT_R10G10B10A2_UNORM]
+[2026-10-19 16:13:31.628]: Info: Display refresh rate [144Hz]
+[2026-10-19 16:13:31.628]: Info: Requested frame rate [60/1 exactly 60 fps]
+[2026-10-19 16:13:31.719]: Info: 
+Device Description : AMD Radeon RX 9070
+Device Vendor ID   : 0x00001002
+Device Device ID   : 0x00007550
+Device Video Mem   : 16188 MiB
+Device Sys Mem     : 0 MiB
+Share Sys Mem      : 8146 MiB
+Feature Level      : 0x0000B100
+Capture size       : 1920x1080
+Offset             : 0x0
+Virtual Desktop    : 1920x1080
+[2026-10-19 16:13:31.719]: Info: Active GPU has HAGS enabled
+[2026-10-19 16:13:31.719]: Info: Using realtime GPU priority
+[2026-10-19 16:13:31.719]: Info: 
+Colorspace         : DXGI_COLOR_SPACE_RGB_FULL_G22_NONE_P709
+Bits Per Color     : 8
+Red Primary        : [0.649292,0.330595]
+Green Primary      : [0.324212,0.602424]
+Blue Primary       : [0.152391,0.061202]
+White Point        : [0.312716,0.329]
+Min Luminance      : 0 nits
+Max Luminance      : 80 nits
+Max Full Luminance : 80 nits
+[2026-10-19 16:13:31.720]: Info: Desktop resolution [1920x1080]
+[2026-10-19 16:13:31.720]: Info: Desktop format [DXGI_FORMAT_R10G10B10A2_UNORM]
+[2026-10-19 16:13:31.720]: Info: Display refresh rate [144Hz]
+[2026-10-19 16:13:31.720]: Info: Requested frame rate [60/1 exactly 60 fps]
+[2026-10-19 16:13:31.815]: Info: 
+Device Description : AMD Radeon RX 9070
+Device Vendor ID   : 0x00001002
+Device Device ID   : 0x00007550
+Device Video Mem   : 16188 MiB
+Device Sys Mem     : 0 MiB
+Share Sys Mem      : 8146 MiB
+Feature Level      : 0x0000B100
+Capture size       : 1920x1080
+Offset             : 0x0
+Virtual Desktop    : 1920x1080
+[2026-10-19 16:13:31.815]: Info: Active GPU has HAGS enabled
+[2026-10-19 16:13:31.815]: Info: Using realtime GPU priority
+[2026-10-19 16:13:31.815]: Info: 
+Colorspace         : DXGI_COLOR_SPACE_RGB_FULL_G22_NONE_P709
+Bits Per Color     : 8
+Red Primary        : [0.649292,0.330595]
+Green Primary      : [0.324212,0.602424]
+Blue Primary       : [0.152391,0.061202]
+White Point        : [0.312716,0.329]
+Min Luminance      : 0 nits
+Max Luminance      : 80 nits
+Max Full Luminance : 80 nits
+[2026-10-19 16:13:31.816]: Info: Desktop resolution [1920x1080]
+[2026-10-19 16:13:31.816]: Info: Desktop format [DXGI_FORMAT_R10G10B10A2_UNORM]
+[2026-10-19 16:13:31.816]: Info: Display refresh rate [144Hz]
+[2026-10-19 16:13:31.816]: Info: Requested frame rate [60/1 exactly 60 fps]
+[2026-10-19 16:13:31.908]: Info: 
+Device Description : AMD Radeon RX 9070
+Device Vendor ID   : 0x00001002
+Device Device ID   : 0x00007550
+Device Video Mem   : 16188 MiB
+Device Sys Mem     : 0 MiB
+Share Sys Mem      : 8146 MiB
+Feature Level      : 0x0000B100
+Capture size       : 1920x1080
+Offset             : 0x0
+Virtual Desktop    : 1920x1080
+[2026-10-19 16:13:31.909]: Info: Active GPU has HAGS enabled
+[2026-10-19 16:13:31.909]: Info: Using realtime GPU priority
+[2026-10-19 16:13:31.909]: Info: 
+Colorspace         : DXGI_COLOR_SPACE_RGB_FULL_G22_NONE_P709
+Bits Per Color     : 8
+Red Primary        : [0.649292,0.330595]
+Green Primary      : [0.324212,0.602424]
+Blue Primary       : [0.152391,0.061202]
+White Point        : [0.312716,0.329]
+Min Luminance      : 0 nits
+Max Luminance      : 80 nits
+Max Full Luminance : 80 nits
+[2026-10-19 16:13:31.909]: Info: Desktop resolution [1920x1080]
+[2026-10-19 16:13:31.909]: Info: Desktop format [DXGI_FORMAT_R10G10B10A2_UNORM]
+[2026-10-19 16:13:31.909]: Info: Display refresh rate [144Hz]
+[2026-10-19 16:13:31.909]: Info: Requested frame rate [60/1 exactly 60 fps]
+[2026-10-19 16:13:32.000]: Info: 
+Device Description : AMD Radeon RX 9070
+Device Vendor ID   : 0x00001002
+Device Device ID   : 0x00007550
+Device Video Mem   : 16188 MiB
+Device Sys Mem     : 0 MiB
+Share Sys Mem      : 8146 MiB
+Feature Level      : 0x0000B100
+Capture size       : 1920x1080
+Offset             : 0x0
+Virtual Desktop    : 1920x1080
+[2026-10-19 16:13:32.001]: Info: Active GPU has HAGS enabled
+[2026-10-19 16:13:32.001]: Info: Using realtime GPU priority
+[2026-10-19 16:13:32.001]: Info: 
+Colorspace         : DXGI_COLOR_SPACE_RGB_FULL_G22_NONE_P709
+Bits Per Color     : 8
+Red Primary        : [0.649292,0.330595]
+Green Primary      : [0.324212,0.602424]
+Blue Primary       : [0.152391,0.061202]
+White Point        : [0.312716,0.329]
+Min Luminance      : 0 nits
+Max Luminance      : 80 nits
+Max Full Luminance : 80 nits
+[2026-10-19 16:13:32.001]: Info: Desktop resolution [1920x1080]
+[2026-10-19 16:13:32.001]: Info: Desktop format [DXGI_FORMAT_R10G10B10A2_UNORM]
+[2026-10-19 16:13:32.001]: Info: Display refresh rate [144Hz]
+[2026-10-19 16:13:32.001]: Info: Requested frame rate [60/1 exactly 60 fps]
+[2026-10-19 16:13:32.093]: Info: 
+Device Description : AMD Radeon RX 9070
+Device Vendor ID   : 0x00001002
+Device Device ID   : 0x00007550
+Device Video Mem   : 16188 MiB
+Device Sys Mem     : 0 MiB
+Share Sys Mem      : 8146 MiB
+Feature Level      : 0x0000B100
+Capture size       : 1920x1080
+Offset             : 0x0
+Virtual Desktop    : 1920x1080
+[2026-10-19 16:13:32.094]: Info: Active GPU has HAGS enabled
+[2026-10-19 16:13:32.094]: Info: Using realtime GPU priority
+[2026-10-19 16:13:32.094]: Info: 
+Colorspace         : DXGI_COLOR_SPACE_RGB_FULL_G22_NONE_P709
+Bits Per Color     : 8
+Red Primary        : [0.649292,0.330595]
+Green Primary      : [0.324212,0.602424]
+Blue Primary       : [0.152391,0.061202]
+White Point        : [0.312716,0.329]
+Min Luminance      : 0 nits
+Max Luminance      : 80 nits
+Max Full Luminance : 80 nits
+[2026-10-19 16:13:32.094]: Info: Desktop resolution [1920x1080]
+[2026-10-19 16:13:32.094]: Info: Desktop format [DXGI_FORMAT_R10G10B10A2_UNORM]
+[2026-10-19 16:13:32.094]: Info: Display refresh rate [144Hz]
+[2026-10-19 16:13:32.094]: Info: Requested frame rate [60/1 exactly 60 fps]
+[2026-10-19 16:13:32.101]: Info: // Testing for available encoders, this may generate errors. You can safely ignore those errors. //
+[2026-10-19 16:13:32.102]: Info: 
+[2026-10-19 16:13:32.102]: Info: // Ignore any errors mentioned above, they are not relevant. //
+[2026-10-19 16:13:32.102]: Info: 
+[2026-10-19 16:13:32.102]: Info: Found H.264 encoder: libx264 [software]
+[2026-10-19 16:13:32.132]: Info: New streaming session started [active sessions: 1]
+[2026-10-19 16:13:32.134]: Info: nvprefs: NvAPI_Initialize() failed, ignore if you don't have NVIDIA video card
+[2026-10-19 16:13:32.149]: Info: CLIENT CONNECTED
+[2026-10-19 16:13:32.332]: Info: 
+Device Description : AMD Radeon RX 9070
+Device Vendor ID   : 0x00001002
+Device Device ID   : 0x00007550
+Device Video Mem   : 16188 MiB
+Device Sys Mem     : 0 MiB
+Share Sys Mem      : 8146 MiB
+Feature Level      : 0x0000B100
+Capture size       : 1920x1080
+Offset             : 0x0
+Virtual Desktop    : 1920x1080
+[2026-10-19 16:13:32.333]: Info: Active GPU has HAGS enabled
+[2026-10-19 16:13:32.333]: Info: Using realtime GPU priority
+[2026-10-19 16:13:32.333]: Info: 
+Colorspace         : DXGI_COLOR_SPACE_RGB_FULL_G22_NONE_P709
+Bits Per Color     : 8
+Red Primary        : [0.649292,0.330595]
+Green Primary      : [0.324212,0.602424]
+Blue Primary       : [0.152391,0.061202]
+White Point        : [0.312716,0.329]
+Min Luminance      : 0 nits
+Max Luminance      : 80 nits
+Max Full Luminance : 80 nits
+[2026-10-19 16:13:32.333]: Info: Desktop resolution [1920x1080]
+[2026-10-19 16:13:32.333]: Info: Desktop format [DXGI_FORMAT_R10G10B10A2_UNORM]
+[2026-10-19 16:13:32.333]: Info: Display refresh rate [144Hz]
+[2026-10-19 16:13:32.333]: Info: Requested frame rate [60/1 exactly 60 fps]
+[2026-10-19 16:13:32.333]: Info: Creating encoder [libx264]
+[2026-10-19 16:13:32.333]: Info: Color coding: SDR (Rec. 709)
+[2026-10-19 16:13:32.333]: Info: Color depth: 8-bit
+[2026-10-19 16:13:32.333]: Info: Color range: MPEG
+[2026-10-19 16:13:32.333]: Info: Streaming bitrate is 30988000
+[2026-10-19 16:13:32.333]: Info: [libx264 @ 000002428ca15480] using cpu capabilities: MMX2 SSE2Fast SSSE3 SSE4.2 AVX FMA3 BMI2 AVX2
+[2026-10-19 16:13:32.335]: Info: [libx264 @ 000002428ca15480] profile High, level 5.1, 4:2:0, 8-bit
+[2026-10-19 16:13:32.340]: Info: Minimum FPS target set to ~30fps (33.3333ms)
+[2026-10-19 16:13:32.350]: Info: Capture format [DXGI_FORMAT_B8G8R8A8_UNORM]
+[2026-10-19 16:13:32.634]: Info: Virtual audio device will use 24-bit to match default device
+[2026-10-19 16:13:32.648]: Info: Changed virtual audio sink format to [S24 48000 2.0]
+[2026-10-19 16:13:32.684]: Info: Capturing audio from sink [virtual-Stereo{0.0.0.00000000}.{40f1befd-e5ae-42d9-9ddc-8c21b5643cc3}]
+[2026-10-19 16:13:32.685]: Info: Audio mixer format is 32-bit, 48000 Hz, no resampling needed
+[2026-10-19 16:13:32.693]: Info: Audio capture format is [F32 48000 2.0]
+[2026-10-19 16:13:32.694]: Info: Opus initialized: 48 kHz, 2 channels, 512 kbps (total), LOWDELAY
+[2026-10-19 16:13:54.523]: Info: Gamepad 1 will be Xbox 360 controller (default)
+[2026-10-19 16:14:13.193]: Info: CLIENT DISCONNECTED
+[2026-10-19 16:14:13.208]: Info: [libx264 @ 000002428ca15480] frame I:6     Avg QP:16.24  size: 67024
+[2026-10-19 16:14:13.208]: Info: [libx264 @ 000002428ca15480] frame P:1021  Avg QP: 6.16  size: 26794
+[2026-10-19 16:14:13.208]: Info: [libx264 @ 000002428ca15480] mb I  I16..4: 32.4% 55.5% 12.1%
+[2026-10-19 16:14:13.208]: Info: [libx264 @ 000002428ca15480] mb P  I16..4:  0.7%  2.4%  0.5%  P16..4: 10.8%  2.3%  1.7%  0.0%  0.0%    skip:81.6%
+[2026-10-19 16:14:13.208]: Info: [libx264 @ 000002428ca15480] 8x8 transform intra:65.6% inter:54.9%
+[2026-10-19 16:14:13.208]: Info: [libx264 @ 000002428ca15480] coded y,uvDC,uvAC intra: 52.5% 48.5% 35.3% inter: 7.4% 5.2% 2.6%
+[2026-10-19 16:14:13.208]: Info: [libx264 @ 000002428ca15480] i16 v,h,dc,p: 49% 27% 12% 11%
+[2026-10-19 16:14:13.208]: Info: [libx264 @ 000002428ca15480] i8 v,h,dc,ddl,ddr,vr,hd,vl,hu: 22% 15% 42%  3%  4%  3%  4%  3%  4%
+[2026-10-19 16:14:13.208]: Info: [libx264 @ 000002428ca15480] i4 v,h,dc,ddl,ddr,vr,hd,vl,hu: 32% 20% 26%  4%  5%  3%  4%  2%  3%
+[2026-10-19 16:14:13.208]: Info: [libx264 @ 000002428ca15480] i8c dc,h,v,p: 69% 16% 12%  3%
+[2026-10-19 16:14:13.208]: Info: [libx264 @ 000002428ca15480] Weighted P-Frames: Y:0.1% UV:0.1%
+[2026-10-19 16:14:13.208]: Info: [libx264 @ 000002428ca15480] kb/s:12973.80
